@@ -1,0 +1,80 @@
+#bgImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /*배경만들기 */
+  animation: fadeIn 0.5s linear;
+}
+
+#weather{
+  width : 120px;
+  height : 90px;
+  border-radius: 2em;
+  opacity: 0.7;
+  background-color: white;
+  float: right;
+  padding-left : 35px;
+  margin-top: 15px;
+  margin-right : 15px;
+}
+
+#weather span{
+  font-size: xx-large;
+  font-weight:bold;
+}
+#weather div span{
+  font-size: medium;
+}
+
+#positionCenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
+  text-align:center;
+
+}
+
+.hidden{
+    display: none;
+}
+
+h1{
+  font-size: 100px;
+  margin-bottom: -10px;
+}
+
+#greeting{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input{
+  width:300px;
+  height:50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid;
+  background-color: transparent;
+  text-align:center;
+  font-size: 25px;
+}
+
+input:focus {
+  outline:none;
+}
+
+li{
+  list-style:none;
+  font-size: 20px;
+}
+
+button{
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  border-style:none;
+}
